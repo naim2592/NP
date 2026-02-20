@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Platter</title>
+    <!-- add Tailwind and daisy Ui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>      
+
+<!-- Add google font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<!-- Add icon -->
+ <script src="https://kit.fontawesome.com/dc591b08e9.js" crossorigin="anonymous"></script>
+<!-- Add row Css -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body class="fot">
+    <header class="pt-10  bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]  mx-auto">
+       <nav class="w-[95%] md:w-[85%] lg:w-[80%]   mx-auto">
+         <!-- for window part -->
+         <div class=" lg:flex md:flex hidden lg:block md:block justify-between text-center items-center ">
+            <div>
+            <img src="asset/logo-header.png" alt="">
+         </div>
+         <div class="flex  text-lg justify-between  space-x-7">
+            <p>Product</p>
+            <p>Services</p>
+            <p>Contact Us</p>
+         </div>
+         <div class="space-x-4">
+            <button class="border border-green-500 rounded-sm py-1  px-6">Login</button>
+            <button class="border  border-green-500 rounded-md text-white bg-[#179800] px-6 py-1">Register</button>
+         </div>
+         </div>
+         <!-- for phone part -->
+          <div class="lg:hidden md:hidden flex justify-between border-b-2 border-[#179800] pb-3 items-center">
+            <div>
+                <img src="asset/logo-header.png" alt="">
+            </div>
+            <div>
+               <i class="fa-solid fa-bars text-2xl text-[#179800]"></i>
+            </div>
+          </div>
+       </nav>
+       <!-- Banner Part -->
+        <div class="  pt-14 space-y-7 ">
+           <div class="lg:w-[43%] w-[80%]  mx-auto  lg:text-5xl text-3xl text-center font-bold"><h1>Freshness <span class="text-[#179800]">You Can</span></h1>
+           <h1><span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+         </div>
+           <div class="text-center lg:w-[43%] w-[80%] mx-auto ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</div>
+           <div class="w-[65%] mx-auto "><img src="asset/hero-vegetables.png" alt=""></div>
+        </div>
+    </header>
+    <main>
+      <!-- section1 -->
+        <section class="w-[80%] mx-auto mt-30 ">
+          <h1 class="text-3xl text-[#179800] font-bold pb-9">Services</h1>
+          <div class="flex space-x-6 justify-between items-center">
+             <div  class="bg-[#EFEBE3] p-5 space-y-2 pl-8 pr-8 rounded-lg text-center">
+               <img class=" mx-auto" src="asset/service.png" alt="">
+               <h1>24/7 Services </h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+             </div>
+             <div class="bg-[#EFEBE3] p-5 space-y-2 pl-8 pr-8 rounded-lg text-center">
+               <img class=" mx-auto" src="asset/delivery.png" alt="">
+               <h1>Fast Delivery</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+             </div>
+             <div class="bg-[#EFEBE3] p-5 space-y-2 pl-8 pr-8 rounded-lg text-center">
+               <img class=" mx-auto" src="asset/healthy.png" alt="">
+               <h1>Healthy Products </h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+             </div>
+          </div>
+        </section>
+        <!-- section2 -->
+        <section class="bg-[#EFEBE3] mt-30">
+         
+           <div class="w-[80%] mx-auto pt-20 pb-20">
+            <h1 class="text-3xl text-[#179800] font-bold pb-9">Popular Products</h1>
+            <div class="flex justify-between items-center">
+                <div class="w-[30%] h-86  mx-auto bg-gradient-to-tl space-y-4 rounded-lg  from-[#e6fae2] to-[#53db3b] pl-6  pt-12 px-4">
+                     <h1 class="text-2xl text-white font-semibold">30% Off</h1>
+                     <p class="text-sm pr-8">Discover a world of treats, toys, and essentials handpicked for</p>
+                     <button class="bg-white rounded px-4 py-1">Buy Now</button>
+                     <img class=" relative size-[70%] bottom-16 left-25" src="asset/vegetable-offer.png" alt="">
+                </div>
+                <div class="w-[70%] mx-auto grid grid-cols-3 gap-6">
+                  <!-- 1 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 2 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 3 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 4 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 5 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 6 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 7 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 8 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                  <!-- 9 setup -->
+                    <div class="flex justify-between items-center bg-white">
+                        <img class="border bg-gray-300" src="asset/onion.png" alt="">
+                        <div>
+                          <p>4.5</p>
+                          <h1>Onion 1 Kg</h1>
+                          <p>$39.99</p>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                </div>
+            </div>
+           </div>
+        </section>
+        <!-- section3 -->
+        <section>
+          bye
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
